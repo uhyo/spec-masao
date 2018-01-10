@@ -1,0 +1,16 @@
+{
+  "name": "spec-masao",
+  "version": "1.0.0",
+  "description": "Spec document of masao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "uhyo",
+  "license": "MIT",
+  "devDependencies": {
+    "markdown-it": "^8.4.0",
+    "my-static": "^1.1.1",
+    "pug": "^2.0.0-rc.4"
+  }
+}

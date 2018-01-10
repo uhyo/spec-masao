@@ -1,0 +1,7 @@
+{
+  "outDir": "./out",
+  "rootDir": "./src",
+  "data": "./data",
+  "dependency": ["./templates"],
+  "extension": ["./extensions/markdown.js"]
+}
