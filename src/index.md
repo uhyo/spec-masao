@@ -5,6 +5,8 @@
 # 仕様一覧
 
 * [mc_canvas](/mc_canvas/): canvasまさお本体。ウェブページに正男を設置するためのAPI。
+* [masao-json-format](/masao-json-format/): canvasまさおを交換・保存するためのフォーマット。
+* [masao-js](/masao-js/): canvasまさおのデータを扱うためのライブラリ。
 
 # このサイトへの貢献
 

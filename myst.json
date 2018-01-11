@@ -3,5 +3,5 @@
   "rootDir": "./src",
   "data": "./data",
   "dependency": ["./templates"],
-  "extension": ["./extensions/markdown.js"]
+  "extension": ["./extensions/markdown.js", "./extensions/site.js"]
 }
