@@ -1,4 +1,6 @@
 // title: masao.param
+// parent: /masao-js/
+// parentname: masao-js
 
 # masao.param
 

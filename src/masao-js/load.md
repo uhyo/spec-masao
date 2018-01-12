@@ -1,4 +1,6 @@
 // title: masao.load
+// parent: /masao-js/
+// parentname: masao-js
 
 # masao.load
 

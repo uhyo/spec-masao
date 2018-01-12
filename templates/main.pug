@@ -21,6 +21,14 @@ html
         a(href="/").top-sitename
           = site.name
     main
+      if parent && title
+        nav
+          p
+            a(href=parent)= parentname || parent
+            | > #{title}
+
+
+
       | !{content}
     footer
       //- GitHub ribbon ( https://github.com/blog/273-github-ribbons )

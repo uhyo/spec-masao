@@ -1,4 +1,6 @@
 // title: masao.format
+// parent: /masao-js/
+// parentname: masao-js
 
 # masao.format
 
