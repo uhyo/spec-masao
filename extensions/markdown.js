@@ -29,6 +29,7 @@ function makeMarkdownRenderFunction(ctx){
         return ctx.render(file, target, ()=>{
             return ctx.loadRenderedFile(file, false).then(content=>{
                 return Promise.resolve(templateFunc({
+                    ...options,
                     content: md.render(content),
                 }));
             });

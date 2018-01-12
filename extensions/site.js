@@ -1,6 +1,7 @@
 const myst = require('my-static');
 
 const staticExts = [
+    '.png',
     '.json5',
 ];
 
