@@ -1,3 +1,5 @@
+// title: masao.param
+
 # masao.param
 
 **masao.param**はcanvasまさおのparam値に関する処理を提供するAPIです。

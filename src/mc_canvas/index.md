@@ -1,3 +1,6 @@
+// template: spec
+// title: mc_canvas
+
 # mc_canvas
 
 **mc_canvas**は、canvasまさおの本体です。 [ウェブサイト](http://ryo-9399.github.io/)・[GitHub](https://github.com/Ryo-9399/mc_canvas)

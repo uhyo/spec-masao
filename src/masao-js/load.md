@@ -1,3 +1,5 @@
+// title: masao.load
+
 # masao.load
 
 **masao.load**は正男を表すHTMLファイルを読み込むためのAPIです。

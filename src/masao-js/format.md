@@ -1,3 +1,5 @@
+// title: masao.format
+
 # masao.format
 
 **masao.format**は[masao-json-format](/masao-json-format/)で表されたデータを扱うためのAPIです。

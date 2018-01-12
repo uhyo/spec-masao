@@ -9,6 +9,7 @@
   "author": "uhyo",
   "license": "MIT",
   "devDependencies": {
+    "js-yaml": "^3.10.0",
     "markdown-it": "^8.4.0",
     "my-static": "^1.1.1",
     "node-sass": "^4.7.2",
