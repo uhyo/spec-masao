@@ -4,7 +4,9 @@
   "description": "Spec document of masao",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "myst",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "myst -sw"
   },
   "author": "uhyo",
   "license": "MIT",

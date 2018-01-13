@@ -86,7 +86,5 @@ masao-json-formatは次の構造を持つオブジェクトです。以下で定
 TODO (第3版マップデータ)
 
 ## 仕様改訂の提案
-masao-json-formatの機能拡張・仕様改訂の提案は、[このサイトのGitHub](https://github.com/uhyo/spec-masao)で受け付けます。
-
-TODO (contributing)
+masao-json-formatの機能拡張・仕様改訂の提案は、[このサイトのGitHub](https://github.com/uhyo/spec-masao)で受け付けます。[このサイトへの貢献](/contributing.html)のページもご確認ください。
 

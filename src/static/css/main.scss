@@ -54,6 +54,7 @@ body > header {
 
 body > main {
   flex: auto 1 1;
+  width: 100%;
   max-width: $main-max-width;
   margin: 0 auto;
   padding: 1em;
