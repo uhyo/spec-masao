@@ -1,1 +1,20 @@
 extends main.pug
+
+block page_header
+  div.header-wrapper
+    h1= title
+    case type
+      when "official"
+        div.header-sub
+          b.type-official 公式
+          | - canvasまさお/JSまさおの公式が提供するライブラリ・仕様です。
+      when "spec"
+        div.header-sub
+          b.type-spec 仕様
+          | - このサイトが定義する仕様です。
+      when "library"
+        div.header-sub
+          b.type-library ライブラリ
+          | - canvasまさおに関連するライブラリです。
+
+

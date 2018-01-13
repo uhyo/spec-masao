@@ -1,7 +1,7 @@
 // template: spec
 // title: masao-js
+// type: library
 
-# masao-js
 **masao-js**はまさおのゲームデータを扱うためのライブラリです。[masao-json-format](/masao-json-format/)の読み書きやparamデータを扱うためのAPIを提供します。
 
 ## 使用方法

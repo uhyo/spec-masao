@@ -1,7 +1,6 @@
 // template: spec
 // title: masao-json-format
-
-# masao-json-format
+// type: spec
 
 **masao-json-format**は、canvasまさおのステージデータをポータブルなJSON形式で表すためのフォーマットです。masao-json-formatを採用しているサービス・アプリ等の間では正男の相互運用性が期待できます。
 
