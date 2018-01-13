@@ -1,6 +1,8 @@
 $heading-color: #3964ad;
 $bold-color: #254375;
 
+$main-max-width: 820px;
+
 * {
   box-sizing: border-box;
 }
@@ -52,11 +54,38 @@ body > header {
 
 body > main {
   flex: auto 1 1;
-  max-width: 820px;
+  max-width: $main-max-width;
   margin: 0 auto;
   padding: 1em;
 
   background-color: #ffffff;
+}
+
+body > footer {
+  background-color: #5a5587;
+  color: #ffffff;
+
+  nav {
+    max-width: $main-max-width;
+    margin: 0 auto;
+    padding: 0.35em 2em;
+
+    ul {
+      margin: 0.6em 0;
+
+      li {
+        list-style: none;
+
+        display: inline-block;
+        margin: 0 1em;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
 }
 
 nav {
