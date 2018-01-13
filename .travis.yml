@@ -11,7 +11,7 @@ before_deploy:
   - eval "$(ssh-agent -s)"
   - chmod 600 /tmp/deploy-key
   - ssh-add /tmp/deploy-key
-  - ssh-keyscan -H -p $DEPLOY_PORT $DEPLOY_HOST >> ~/.ssh/known_hosts
+  - ssh-keyscan -H -t rsa -p $DEPLOY_PORT $DEPLOY_HOST >> ~/.ssh/known_hosts
 
 deploy:
   - provider: script
