@@ -25,8 +25,8 @@ const {
 
 一部のメソッドは**正男のバージョンを表す文字列**を引数にとります。これは[masao-json-format](/masao-json-format/)のversionフィールドに入る文字列と同じです。例えば`"2.8"`や`"fx16"`などを指定できます。
 
-## param.getDefaultKey(key)
-**param.getDefaultKey**は渡されたparam名に対するデフォルトの値を返します。存在しないparam名を渡された場合はnullを返し、それ以外の場合は文字列を返します。
+## param.getDefaultValue(key)
+**param.getDefaultValue**は渡されたparam名に対するデフォルトの値を返します。存在しないparam名を渡された場合はnullを返し、それ以外の場合は文字列を返します。
 
 ### 例
 ```js
@@ -76,6 +76,10 @@ console.log(params2); // {}
 
 第2引数は正男のバージョンを表す文字列で、これを指定した場合はそのバージョンに存在しないparam名についても取り除かれます。
 
+## param.minimizeMapData(params)
+**param.minimizeMapData**は、渡されたparamオブジェクトに含まれるマップデータ（`map0-0`などのparam）を最小化した新しいparamオブジェクトを返します。
+
+このメソッドにより、`.`だけの行などが省略されます。
 
 ## param.validateParams(params, options)
 **param.validateParams**は、渡されたparamオブジェクトが正しいparamオブジェクトかどうか判定します。正しいオブジェクトの場合はtrueを、そうでない場合はfalseを返します。
