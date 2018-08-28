@@ -26,3 +26,4 @@ const masao = require('masao');
 - [masao.param](./param.html): paramに関する処理のためのAPI。
 - [masao.load](./load.html): 正男を表すHTMLファイルを読み込むためのAPI。
 - masao.playlog: プレイログを扱うAPI。
+- [masao.customParts](./custom-parts.html): カスタムパーツに関する処理のためのAPI。
