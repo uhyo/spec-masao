@@ -25,7 +25,7 @@ canvasまさおをウェブページに設置するには、canvasまさおス�
 </script>
 ```
 
-また、Javaアプレット時代のまさおは、applet要素とparam要素により記述されています。Java版のまさおは現在ブラウザ上で動作させることはできませんが、canvasまさおスクリプトによりこれをcanvasまさおの設定として読み込むことができます。そのためには**CanvasMasao.Game.replaceAll()**メソッドをページ内のどこかで呼び出します。
+また、Javaアプレット時代のまさおは、applet要素とparam要素により記述されています。Java版のまさおは現在ブラウザ上で動作させることはできませんが、canvasまさおスクリプトによりこれをcanvasまさおの設定として読み込むことができます。そのためには **CanvasMasao.Game.replaceAll()** メソッドをページ内のどこかで呼び出します。
 
 ```html
 <applet code="MasaoConstruction.class" archive="mc_c.jar">
