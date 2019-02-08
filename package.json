@@ -11,10 +11,10 @@
   "author": "uhyo",
   "license": "MIT",
   "devDependencies": {
-    "js-yaml": "^3.10.0",
-    "markdown-it": "^8.4.0",
+    "js-yaml": "^3.12.1",
+    "markdown-it": "^8.4.2",
     "my-static": "^1.1.1",
-    "node-sass": "^4.9.3",
-    "pug": "^2.0.0-rc.4"
+    "node-sass": "^4.11.0",
+    "pug": "^2.0.3"
   }
 }
