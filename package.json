@@ -11,7 +11,7 @@
   "author": "uhyo",
   "license": "MIT",
   "devDependencies": {
-    "js-yaml": "^3.12.1",
+    "js-yaml": "^3.13.1",
     "markdown-it": "^8.4.2",
     "my-static": "^1.1.1",
     "node-sass": "^4.11.0",
