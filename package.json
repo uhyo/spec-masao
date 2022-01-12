@@ -12,7 +12,7 @@
   "license": "MIT",
   "devDependencies": {
     "js-yaml": "^3.13.1",
-    "markdown-it": "^8.4.2",
+    "markdown-it": "^12.3.2",
     "my-static": "^2.0.0",
     "node-sass": "^4.12.0",
     "pug": "^2.0.3"
